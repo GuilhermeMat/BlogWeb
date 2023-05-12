@@ -3,9 +3,28 @@
     padding: 0;
     font-family: supernatural;
 }
+body{
+    background-color: dimgray;
+}
 @font-face {
     font-family: supernatural;
     src: url(../font/supernatural_knight/Supernatural_Knight.ttf);
+}
+@font-face {
+    font-family: mandalorian;
+    src: url(../font/mandalorian/mandalor.ttf);
+}
+@font-face {
+    font-family: warzone;
+    src: url(../font/warzone_stencil/Warzone\ Stencil.ttf);
+}
+@font-face {
+    font-family: write;
+    src: url(../font/please_write_me_a_song/Please\ write\ me\ a\ song.ttf);
+}
+@font-face {
+    font-family: melted;
+    src: url(../font/melted_monster/Melted\ Monster.ttf);
 }
 .principal{
     width: 100%;
@@ -34,7 +53,7 @@ a:hover{
     margin: 5px;
     color: red;
     transition: 1s;
-    text-shadow: white 5px 1px;
+    text-shadow: white 1px 1px 1px;
 }
 button{
     width: 120px;
@@ -48,6 +67,7 @@ button:hover{
     height: 35px;
     background-color: red;
     color: white;
+    text-shadow: black 1px 1px 1px;
     border-radius: 8px;
     transition: 0.5s;
 }
@@ -89,7 +109,7 @@ main{
     text-align: center;
     margin-top: 45px;
     margin-bottom: 30px;
-
+    text-shadow: white 1px 1px 1px;
 }
 .sobre-eu{
     width: 80%;
